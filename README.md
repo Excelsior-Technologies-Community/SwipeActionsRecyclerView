@@ -3,6 +3,7 @@
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9-blue?logo=kotlin&logoColor=white)](https://kotlinlang.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![API](https://img.shields.io/badge/API-21%2B-orange)](#)
+[![](https://jitpack.io/v/Excelsior-Technologies-Community/SwipeActionsRecyclerView.svg)](https://jitpack.io/#Excelsior-Technologies-Community/SwipeActionsRecyclerView)
 
 **SwipeActionsRecyclerView** is a powerful, lightweight, and highly customizable Android library that brings **WhatsApp-like swipe-to-reveal actions** to your `RecyclerView`. Swipe left or right to reveal beautiful action buttons — fully animated, smooth, and with full control over behavior and appearance.
 
@@ -52,7 +53,7 @@ dependencyResolutionManagement {
 
 ```gradle
 dependencies {
-    implementation 'com.github.Excelsior-Technologies-Community:SwipeActionsRecyclerView:1.0.0'
+    implementation 'com.github.Excelsior-Technologies-Community:SwipeActionsRecyclerView:1.0.1'
 }
 ```
 
