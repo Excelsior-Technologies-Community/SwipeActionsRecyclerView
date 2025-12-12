@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        Example style showing how to customize swipe actions via XML.
+        Apply this style to your RecyclerView to override default values.
+
+        Usage:
+        <androidx.recyclerview.widget.RecyclerView
+            style="@style/SwipeActionsStyle"
+            ... />
+    -->
+    <style name="SwipeActionsStyle">
+        <!-- Appearance -->
+        <item name="sar_button_width">90dp</item>
+        <item name="sar_button_textSize">14sp</item>
+        <item name="sar_button_textColor">#FFFFFF</item>
+        <item name="sar_button_iconTint">#FFFFFF</item>
+        <item name="sar_button_cornerRadius">8dp</item>
+        <item name="sar_button_padding">16dp</item>
+        <item name="sar_button_iconSize">24dp</item>
+
+        <!-- Colors -->
+        <item name="sar_delete_button_color">#FF3B30</item>
+        <item name="sar_edit_button_color">#8E8E93</item>
+        <item name="sar_archive_button_color">#FF9500</item>
+        <item name="sar_pin_button_color">#007AFF</item>
+
+        <!-- Behavior -->
+        <item name="sar_swipe_threshold">0.3</item>
+        <item name="sar_swipe_velocity">1.0</item>
+        <item name="sar_longSwipe_enabled">true</item>
+        <item name="sar_longSwipe_threshold">0.7</item>
+        <item name="sar_haptic_on_action">true</item>
+        <item name="sar_auto_remove_on_delete">false</item>
+        <item name="sar_close_previous_on_swipe">true</item>
+        <item name="sar_max_buttons_per_side">3</item>
+
+        <!-- Animation -->
+        <item name="sar_reveal_animation_duration">250</item>
+        <item name="sar_snap_back_duration">200</item>
+        <item name="sar_slide_away_duration">300</item>
+        <item name="sar_animation_interpolator">decelerate</item>
+
+        <!-- General -->
+        <item name="sar_item_elevation_on_swipe">4dp</item>
+        <item name="sar_swipe_enabled">true</item>
+    </style>
+
+    <!-- Alternative style with different colors (e.g., for dark mode) -->
+    <style name="SwipeActionsStyle.Dark">
+        <item name="sar_delete_button_color">#CC0000</item>
+        <item name="sar_edit_button_color">#555555</item>
+        <item name="sar_archive_button_color">#CC7700</item>
+        <item name="sar_overlay_color">#80000000</item>
+    </style>
+
+    <!-- Compact style with smaller buttons -->
+    <style name="SwipeActionsStyle.Compact">
+        <item name="sar_button_width">70dp</item>
+        <item name="sar_button_textSize">12sp</item>
+        <item name="sar_button_iconSize">20dp</item>
+        <item name="sar_button_padding">12dp</item>
+    </style>
+
+</resources>

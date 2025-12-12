@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default button labels -->
+    <string name="sar_delete">Delete</string>
+    <string name="sar_edit">Edit</string>
+    <string name="sar_archive">Archive</string>
+    <string name="sar_pin">Pin</string>
+    <string name="sar_share">Share</string>
+    <string name="sar_more">More</string>
+
+    <!-- Accessibility descriptions -->
+    <string name="sar_content_desc_delete">Delete item</string>
+    <string name="sar_content_desc_edit">Edit item</string>
+    <string name="sar_content_desc_archive">Archive item</string>
+    <string name="sar_content_desc_pin">Pin item</string>
+
+    <!-- Action feedback -->
+    <string name="sar_item_deleted">Item deleted</string>
+    <string name="sar_item_archived">Item archived</string>
+    <string name="sar_undo">UNDO</string>
+</resources>

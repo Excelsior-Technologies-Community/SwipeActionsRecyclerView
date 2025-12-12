@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Swipe Actions RecyclerView Library Attributes -->
+    <!-- Prefix: sar_ (Swipe Actions Recycler) -->
+
+    <declare-styleable name="SwipeActionsRecyclerView">
+
+        <!-- ========== APPEARANCE ========== -->
+
+        <!-- Text size for button labels -->
+        <attr name="sar_button_textSize" format="dimension" />
+
+        <!-- Text color for button labels -->
+        <attr name="sar_button_textColor" format="color" />
+
+        <!-- Icon tint color (applies to all button icons if not overridden per button) -->
+        <attr name="sar_button_iconTint" format="color" />
+
+        <!-- Corner radius for button backgrounds -->
+        <attr name="sar_button_cornerRadius" format="dimension" />
+
+        <!-- Padding inside each button -->
+        <attr name="sar_button_padding" format="dimension" />
+
+        <!-- Default width for each action button -->
+        <attr name="sar_button_width" format="dimension" />
+
+        <!-- Icon size (width and height) -->
+        <attr name="sar_button_iconSize" format="dimension" />
+
+        <!-- Spacing between icon and text -->
+        <attr name="sar_button_iconTextSpacing" format="dimension" />
+
+
+        <!-- ========== COLORS & DRAWABLES ========== -->
+
+        <!-- Predefined button colors for common actions -->
+        <attr name="sar_delete_button_color" format="color" />
+        <attr name="sar_edit_button_color" format="color" />
+        <attr name="sar_archive_button_color" format="color" />
+        <attr name="sar_pin_button_color" format="color" />
+
+        <!-- Default button background drawable (can be overridden per action) -->
+        <attr name="sar_default_button_background" format="reference" />
+
+        <!-- Default button icon (fallback if action doesn't specify) -->
+        <attr name="sar_default_button_icon" format="reference" />
+
+        <!-- Overlay color shown behind swiped item (optional dimming effect) -->
+        <attr name="sar_overlay_color" format="color" />
+
+
+        <!-- ========== BEHAVIOR ========== -->
+
+        <!-- Fraction of item width that must be swiped to trigger snap-to-reveal (0.0-1.0) -->
+        <attr name="sar_swipe_threshold" format="float" />
+
+        <!-- Velocity multiplier for swipe sensitivity (higher = more sensitive) -->
+        <attr name="sar_swipe_velocity" format="float" />
+
+        <!-- Enable long-swipe behavior (swipe beyond threshold triggers immediate action) -->
+        <attr name="sar_longSwipe_enabled" format="boolean" />
+
+        <!-- Threshold for long-swipe as fraction of width (0.0-1.0) -->
+        <attr name="sar_longSwipe_threshold" format="float" />
+
+        <!-- Trigger haptic feedback when action is triggered -->
+        <attr name="sar_haptic_on_action" format="boolean" />
+
+        <!-- Automatically remove item from adapter when delete action is triggered -->
+        <attr name="sar_auto_remove_on_delete" format="boolean" />
+
+        <!-- Allow swiping in both directions (left and right) -->
+        <attr name="sar_allow_both_directions" format="boolean" />
+
+        <!-- Close previously opened item when another is swiped -->
+        <attr name="sar_close_previous_on_swipe" format="boolean" />
+
+        <!-- Maximum number of buttons allowed per side -->
+        <attr name="sar_max_buttons_per_side" format="integer" />
+
+
+        <!-- ========== ANIMATION ========== -->
+
+        <!-- Duration of reveal animation in milliseconds -->
+        <attr name="sar_reveal_animation_duration" format="integer" />
+
+        <!-- Duration of snap-back animation in milliseconds -->
+        <attr name="sar_snap_back_duration" format="integer" />
+
+        <!-- Duration of slide-away animation (for delete) in milliseconds -->
+        <attr name="sar_slide_away_duration" format="integer" />
+
+        <!-- Interpolator for animations -->
+        <attr name="sar_animation_interpolator" format="enum">
+            <enum name="linear" value="0" />
+            <enum name="accelerate" value="1" />
+            <enum name="decelerate" value="2" />
+            <enum name="accelerate_decelerate" value="3" />
+            <enum name="overshoot" value="4" />
+        </attr>
+
+
+        <!-- ========== GENERAL ========== -->
+
+        <!-- Elevation of item when swiped (creates shadow effect) -->
+        <attr name="sar_item_elevation_on_swipe" format="dimension" />
+
+        <!-- Enable or disable the entire swipe functionality -->
+        <attr name="sar_swipe_enabled" format="boolean" />
+
+        <!-- Minimum touch target size for accessibility -->
+        <attr name="sar_min_touch_target_size" format="dimension" />
+
+        <!-- Show ripple effect on button tap -->
+        <attr name="sar_show_ripple_on_tap" format="boolean" />
+
+        <!-- Allow partial swipe (buttons visible but item not fully revealed) -->
+        <attr name="sar_allow_partial_swipe" format="boolean" />
+
+    </declare-styleable>
+
+</resources>
